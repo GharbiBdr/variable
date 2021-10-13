@@ -1,6 +1,6 @@
 steps:
 
 - name: 'ubuntu'
-  args: ['echo', 'hello world, after ${DATA}s']
+  args: ['echo', 'hello world, after ${_DATA}s']
   env:
   - 'DATA=10000'
