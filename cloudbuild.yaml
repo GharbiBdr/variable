@@ -5,7 +5,7 @@ steps:
   secretEnv: ['MYTEST']
 availableSecrets:
   secretManager:
-  - versionName: projects/delete-328822/secrets/test/versions/latest
+  - versionName: projects/522701491256/secrets/PASS
     env: "MYTEST"
 
 
