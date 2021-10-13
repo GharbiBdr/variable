@@ -1,6 +1,5 @@
 steps:
 
 - name: 'ubuntu'
-  args: ['echo', 'hello world, after $$GITHUB_TOKEN s']
-  secretEnv: 
-    - GITHUB_TOKEN
+  args: ['echo', 'hello world, after  s']
+
