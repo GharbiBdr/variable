@@ -2,8 +2,9 @@ steps:
 
 - name: 'ubuntu'
   args: ['echo', 'hello world, after  ${_TEST} s and a secret from ']
-  secretEnv: ['MYTEST']
+  secretEnv: ['PASSWORD']
 availableSecrets:
   secretManager:
-  - versionName: projects/522701491256/secrets/PASS/version/1
-    env: "MYTEST"
+  - versionName: projects/522701491256/secrets/PASS/versions/latest
+    env: 'PASSWORD'
+
