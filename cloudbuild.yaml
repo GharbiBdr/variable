@@ -2,10 +2,10 @@ steps:
 
 - name: 'ubuntu'
   args: ['echo', 'hello world, after  ${_TEST} s and a secret from ']
-  secretEnv: ['GH_TOKEN']
+  secretEnv: ['MYTEST']
 availableSecrets:
   secretManager:
   - versionName: projects/delete-328822/secrets/test/versions/latest
-    env: GH_TOKEN
+    env: "MYTEST"
 
 
