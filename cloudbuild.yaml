@@ -7,9 +7,3 @@ availableSecrets:
   secretManager:
   - versionName: projects/522701491256/secrets/PASS/version/latest
     env: "MYTEST"
-
-
-
-
-
-
