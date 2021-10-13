@@ -1,6 +1,11 @@
 steps:
 
 - name: 'ubuntu'
-  args: ['echo', 'hello world, after  ${_TEST} s']
+  args: ['echo', 'hello world, after  ${_TEST} s and a secret from $$GH_TOKEN']
+  secretEnv: ['GH_TOKEN']
+availableSecrets:
+  secretManager:
+  - versionName: projects/522701491256/secrets/test/versions/latest
+    env: GH_TOKEN
 
 
