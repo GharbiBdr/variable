@@ -1,7 +1,7 @@
 steps:
 
 - name: 'ubuntu'
-  args: ['echo', 'hello world, after  ${_TEST} s and a secret from $$GH_TOKEN']
+  args: ['echo', 'hello world, after  ${_TEST} s and a secret from ']
   secretEnv: ['GH_TOKEN']
 availableSecrets:
   secretManager:
